@@ -57,7 +57,7 @@ function displayDesserts(desserts) {
         </span>
       </div>
       
-      <h3 class="text-sm text-rose-500">${dessert.category}</h3>
+      <h2 class="text-sm text-rose-500">${dessert.category}</h2>
       <h2 class="my-1 font-semibold text-rose-900">${dessert.name}</h2>
       <p class="price font-semibold text-red">$${dessert.price.toFixed(2)}</p>
     `;
